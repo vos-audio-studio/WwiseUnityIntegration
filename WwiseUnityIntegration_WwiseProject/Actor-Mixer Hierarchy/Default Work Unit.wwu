@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0006CB84-5F61-4374-A997-80B240CDF171}" SchemaVersion="94">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{0006CB84-5F61-4374-A997-80B240CDF171}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0006CB84-5F61-4374-A997-80B240CDF171}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Cymatics - Fisher Price Various Toy 8" ID="{7BB2AD4A-9D51-4CC5-BE76-87E3B685F375}" ShortID="501031724">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8E39C72B-ADA6-4BB3-9E43-4AF483BA140A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E037435E-0BDF-4784-8716-C8933C115EA3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Cymatics - Fisher Price Various Toy 8" ID="{BD594748-41F0-417E-94BF-5085B7D62966}" ShortID="218108247">
+							<Language>SFX</Language>
+							<AudioFile>Cymatics - Fisher Price Various Toy 8.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Cymatics - Fisher Price Various Toy 8" ID="{BD594748-41F0-417E-94BF-5085B7D62966}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

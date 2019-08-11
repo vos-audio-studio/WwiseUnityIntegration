@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	22862063	event_music			\Default Work Unit\event_music	
+	84950490	event_music_stop			\Default Work Unit\event_music_stop	
+	1935015187	event_sfx			\Default Work Unit\event_sfx	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	218108247	Cymatics - Fisher Price Various Toy 8	C:\Test\WwiseUnityIntegration\WwiseUnityIntegration_WwiseProject\.cache\Windows\SFX\Cymatics - Fisher Price Various Toy 8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cymatics - Fisher Price Various Toy 8		372160
+	948978773	loop_tamburo_sciamanico_C3_185 bpm_4-4_presto	C:\Test\WwiseUnityIntegration\WwiseUnityIntegration_WwiseProject\.cache\Windows\SFX\loop_tamburo_sciamanico_C3_185 bpm_4-4_presto_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\loop_tamburo_sciamanico_C3_185 bpm_4-4_presto\loop_tamburo_sciamanico_C3_185 bpm_4-4_presto		4618960
+

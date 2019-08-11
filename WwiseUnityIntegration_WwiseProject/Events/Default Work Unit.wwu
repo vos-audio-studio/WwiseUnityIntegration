@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{25E962DD-ABB2-4D73-BBEF-BD4979C4D29C}" SchemaVersion="94">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{25E962DD-ABB2-4D73-BBEF-BD4979C4D29C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{25E962DD-ABB2-4D73-BBEF-BD4979C4D29C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="event_sfx" ID="{DA815D36-240B-4E1D-9B65-B77B9EEA3431}">
+					<ChildrenList>
+						<Action Name="" ID="{ADC9D7B8-F04F-41FB-8638-C4C03BB2E569}" ShortID="780463789">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cymatics - Fisher Price Various Toy 8" ID="{7BB2AD4A-9D51-4CC5-BE76-87E3B685F375}" WorkUnitID="{0006CB84-5F61-4374-A997-80B240CDF171}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="event_music" ID="{C7F8681F-4DB6-40C1-A876-FFC86169ADC7}">
+					<ChildrenList>
+						<Action Name="" ID="{FAFE409C-CE33-4C6D-9B16-985BC77A0088}" ShortID="634604244">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="loop_tamburo_sciamanico_C3_185 bpm_4-4_presto" ID="{308A92FB-6DD3-4B3A-8570-C1D73091BFAD}" WorkUnitID="{139DA031-3F53-4FD0-8BDD-0AD7BC03A7E4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="event_music_stop" ID="{FAC7B89B-D6CA-4326-A055-FF045F08250B}">
+					<ChildrenList>
+						<Action Name="" ID="{F8254FAC-16AE-46B0-96F7-BBFFC2CAD8E3}" ShortID="284079444">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

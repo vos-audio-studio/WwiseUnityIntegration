@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Test\WwiseUnityIntegration\WwiseUnityIntegration_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Test\WwiseUnityIntegration\WwiseUnityIntegration_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Test\WwiseUnityIntegration\WwiseUnityIntegration_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Test\WwiseUnityIntegration\WwiseUnityIntegration_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2295772590" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Wwise_soundbank</ObjectPath>
+			<ShortName>Wwise_soundbank</ShortName>
+			<Path>Wwise_soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="22862063" Name="event_music" ObjectPath="\Events\Default Work Unit\event_music" DurationType="OneShot" DurationMin="24.056749" DurationMax="24.056749"/>
+				<Event Id="84950490" Name="event_music_stop" ObjectPath="\Events\Default Work Unit\event_music_stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1935015187" Name="event_sfx" ObjectPath="\Events\Default Work Unit\event_sfx" DurationType="OneShot" DurationMin="2.109388" DurationMax="2.109388"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="218108247" Language="SFX">
+					<ShortName>Cymatics - Fisher Price Various Toy 8.wav</ShortName>
+					<Path>SFX\Cymatics - Fisher Price Various Toy 8_10C4C929.wem</Path>
+				</File>
+				<File Id="948978773" Language="SFX">
+					<ShortName>loop_tamburo_sciamanico_C3_185 bpm_4-4_presto.wav</ShortName>
+					<Path>SFX\loop_tamburo_sciamanico_C3_185 bpm_4-4_presto_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
