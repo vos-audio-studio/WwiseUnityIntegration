@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f26fe9cc29fea4cb62c9ca8b747fc7, type: 3}
+  m_Name: D048AB5A-F519-4179-819C-FCB2A370817F
+  m_EditorClassIdentifier: 
+  objectName: Wwise_soundbank
+  id: 2295772590
+  guid: D048AB5A-F519-4179-819C-FCB2A370817F
