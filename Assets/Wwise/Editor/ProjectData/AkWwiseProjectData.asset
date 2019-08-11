@@ -31,15 +31,60 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 2e54626122efb941bdc64bdf50bba469
     GuidInternal: 
-    m_lastTime: -8586360757677518447
-    List: []
+    m_lastTime: -8586360727679152639
+    List:
+    - name: Wwise_soundbank
+      guid: 5aab48d019f57941819cfcb2a370817f
+      id: 2295772590
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Wwise_soundbank
+        ObjectType: 7
+      Path: Default Work Unit\Wwise_soundbank
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: dd62e925b2ab734dbbefbd4979c4d29c
     GuidInternal: 
-    m_lastTime: -8586360757677648455
-    List: []
+    m_lastTime: -8586360728944475011
+    List:
+    - name: event_music
+      guid: 1f68f8c7b64dc140a876ffc86169adc7
+      id: 22862063
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: event_music
+        ObjectType: 3
+      Path: Default Work Unit\event_music
+      maxAttenuation: 0
+      maxDuration: 24056748
+      minDuration: 24056748
+    - name: event_music_stop
+      guid: 9bb8c7facad62643a055ff045f08250b
+      id: 84950490
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: event_music_stop
+        ObjectType: 3
+      Path: Default Work Unit\event_music_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: event_sfx
+      guid: 365d81da0b241d4e9b65b77b9eea3431
+      id: 1935015187
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: event_sfx
+        ObjectType: 3
+      Path: Default Work Unit\event_sfx
+      maxAttenuation: 0
+      maxDuration: 2109388
+      minDuration: 2109388
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -70,5 +115,9 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /WwiseUnityIntegration_WwiseProject
+  - /WwiseUnityIntegration_WwiseProject/Events
+  - /WwiseUnityIntegration_WwiseProject/Events/Default Work Unit
+  - /WwiseUnityIntegration_WwiseProject/SoundBanks
+  - /WwiseUnityIntegration_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
